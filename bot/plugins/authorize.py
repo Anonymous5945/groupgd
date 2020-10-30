@@ -16,8 +16,8 @@ from bot.helpers.utils import CustomFilters
 OAUTH_SCOPE = "https://www.googleapis.com/auth/drive"
 REDIRECT_URI = "urn:ietf:wg:oauth:2.0:oob"
 G_DRIVE_DIR_MIME_TYPE = "application/vnd.google-apps.folder"
-G_DRIVE_CLIENT_ID = "749875007403-f89q9jljl71m60p85rivbgo8ulv2rk5a.apps.googleusercontent.com"
-G_DRIVE_CLIENT_SECRET = "UCQTkH9XA1fTSqf-lvVdm2oK"
+G_DRIVE_CLIENT_ID = "582192658228-jpt087av6m28evv6e1lphsffrnotjiug.apps.googleusercontent.com"
+G_DRIVE_CLIENT_SECRET = "v1TL2Z7AB7tNxY7zs19RQF1Q"
 flow = None
 
 @Client.on_message(filters.private & filters.incoming & filters.command(BotCommands.Authorize))
